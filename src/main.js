@@ -24,7 +24,14 @@ const router = new VueRouter({
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  components: { App },
-  template: '<App/>'
-})
+  router,
+  template: `
+  <div id="app">
+    <ul>
+      <li> <router-link to="/"> Users </router-link> </li>
+      <li> <router-link to="/demo"> Demo </router-link> </li>
+    </ul>
+    <router-view> </router-view>
+  </div>
+  `
+}).$mount('#app')

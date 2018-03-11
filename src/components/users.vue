@@ -52,6 +52,7 @@ export default {
         contacted: false       
       };
       this.users.push(new_user);
+      this.newUser = {};
       e.preventDefault();
     },
     deleteUser: function(index){
