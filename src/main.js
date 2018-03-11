@@ -7,7 +7,6 @@ import App from './App';
 import Users from './components/users';
 import Demo from './components/demo';
 
-
 //Vue middle-ware
 Vue.use(VueResource);
 Vue.use(VueRouter);
