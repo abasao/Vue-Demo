@@ -54,10 +54,8 @@ export default {
           alert(msg);
       },
       pressKey: function(e){
-          console.log(e.target.value);
       },
       enterHit: function(e){
-          console.log('last value: '+e.target.value);
           e.target.value='';
       }
   },
